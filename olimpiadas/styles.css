@@ -1,0 +1,14 @@
+header {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
